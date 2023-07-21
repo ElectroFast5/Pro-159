@@ -29,7 +29,6 @@ AFRAME.registerComponent("cursor-listener", {
         const {state} = placesContainer.getAttribute("tour")
         if(state=="places-list") {
           const id = this.el.getAttribute("id")
-          //const placesId = ["taj-mahal", "budapest", "new-york-city", "eiffel-tower"]
           //if (placesId.includes(id)) {
             placesContainer.setAttribute("tour", {
               state: "view",
