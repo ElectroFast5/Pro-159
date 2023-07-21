@@ -70,9 +70,8 @@ AFRAME.registerComponent("tour", {
   },
 
   showView: function() {
-    //const {selectedCard} = this.data
     const skyEl = document.querySelector("#app-subtitle")
-    skyEl.setAttribute("text", "font: exo2bold; align: center; width: 2; color: #000; value: An exclusive comic that can be found nowhere else! Read now!")
+    skyEl.setAttribute("text", "font: exo2bold; align: center; width: 2; color: #f00; value: An exclusive comic that can be found nowhere else! Read now!")
     skyEl.setAttribute("position", "0 -0.3 0")
     skyEl.setAttribute("material", {color: "red"})
   },
